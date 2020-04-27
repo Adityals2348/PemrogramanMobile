@@ -79,8 +79,8 @@ class Bebek extends StatelessWidget {
                               children: <Widget>[
                                 Container(
                                   width: 150.0,
-                                  child: Image.network(
-                                    topListBarang.imgUrl,
+                                  child: Image.asset(
+                                    topListBarang.imgAsset,
                                     fit: BoxFit.cover,
                                     height: 170.0,
                                   ),
@@ -123,34 +123,30 @@ class Bebek extends StatelessWidget {
 
 class TopListBarang {
   String namaDestinasi;
-  String imgUrl;
+  String imgAsset;
 
-  TopListBarang({this.namaDestinasi, this.imgUrl});
+  TopListBarang({this.namaDestinasi, this.imgAsset});
 }
 
 List<TopListBarang> topListBarangs = [
   TopListBarang(
     namaDestinasi: "Headlamp Jupiter MX",
-    imgUrl: 'https://cf.shopee.co.id/file/6d6e00d7edc04924d6f2799133ff40d8',
+    imgAsset: 'assets/headjupiter.jpg',
   ),
   TopListBarang(
     namaDestinasi: "Gear Set Rantai Honda Supra GTR150",
-    imgUrl:
-        'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/10/25/2062426/2062426_33a53ef9-0b64-4601-8ddc-93b792f0e3e7_960_960.jpg',
+    imgAsset: 'assets/gearset.jpg',
   ),
   TopListBarang(
     namaDestinasi: "Speedometer Supra GTR150",
-    imgUrl:
-        'https://s3.bukalapak.com/img/3856666424/w-1000/speedometer_spidometer_spedometer_supra_gtr_150_K56_original.jpg',
+    imgAsset: 'assets/speedosupra.jpg',
   ),
   TopListBarang(
     namaDestinasi: "Cover Body Kanan Vega ZR",
-    imgUrl:
-        'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/12/28/4479816/4479816_63384a2a-8ffe-44c0-8110-84b65ba69fee_1728_1728.jpg',
+    imgAsset: 'assets/bodyvega.jpg',
   ),
   TopListBarang(
     namaDestinasi: "Spakbor Depan Jupiter 135",
-    imgUrl:
-        'https://s1.bukalapak.com/img/1652708462/w-1000/Spakbor_depan_jupiter_mx_new_135.png',
+    imgAsset: 'assets/spakbor.jpg',
   ),
 ];

@@ -45,6 +45,21 @@ flutter:
     - assets/metik.png
     - assets/bebek.png
     - assets/sport.png
+    - assets/bodyvega.jpg
+    - assets/gearset.jpg
+    - assets/headjupiter.jpg
+    - assets/spakbor.jpg
+    - assets/speedosupra.jpg
+    - assets/bremboVario.jpg
+    - assets/speedonmax.jpg
+    - assets/speedoscooy.jpg
+    - assets/spionscoopy.jpg
+    - assets/stopNmax.jpg
+    - assets/caliper.jpg
+    - assets/selanghell.jpg
+    - assets/shock.jpg
+    - assets/spionrizoma.jpg
+    - assets/steering.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see

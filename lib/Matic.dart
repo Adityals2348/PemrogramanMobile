@@ -79,8 +79,8 @@ class Matic extends StatelessWidget {
                               children: <Widget>[
                                 Container(
                                   width: 150.0,
-                                  child: Image.network(
-                                    topListBarang.imgUrl,
+                                  child: Image.asset(
+                                    topListBarang.imgAsset,
                                     fit: BoxFit.cover,
                                     height: 170.0,
                                   ),
@@ -123,35 +123,30 @@ class Matic extends StatelessWidget {
 
 class TopListBarang {
   String namaBarang;
-  String imgUrl;
+  String imgAsset;
 
-  TopListBarang({this.namaBarang, this.imgUrl});
+  TopListBarang({this.namaBarang, this.imgAsset});
 }
 
 List<TopListBarang> topListBarangs = [
   TopListBarang(
     namaBarang: "Master Rem Brembo Vario",
-    imgUrl:
-        'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//105/MTA-4749891/ktc_ktc_racing_cnc_master_rem_kanan_set_kopling_manual_for_motor_vario_125_-_vario_150_fi_esp_-_hitam_full05_nm881r51.jpg',
+    imgAsset: 'assets/bremboVario.jpg',
   ),
   TopListBarang(
     namaBarang: "Speedometer NMax",
-    imgUrl:
-        'https://pertamax7.com/wp-content/uploads/2019/08/Speedometer-Yamaha-NMAX-ABS-2015-Odometer.jpg',
+    imgAsset: 'assets/speedonmax.jpg',
   ),
   TopListBarang(
     namaBarang: "Speedometer Scoopy",
-    imgUrl:
-        'https://s4.bukalapak.com/img/4030522403/w-1000/Speedometer_Scoopy_eSP_2017.jpg',
+    imgAsset: 'assets/speedoscooy.jpg',
   ),
   TopListBarang(
     namaBarang: "Stop Lamp Nmax",
-    imgUrl:
-        'https://s2.bukalapak.com/img/2064887491/w-1000/Stop_Lamp_Nmax_Bullaes.jpeg',
+    imgAsset: 'assets/stopNmax.jpg',
   ),
   TopListBarang(
     namaBarang: "Spion Scoopy",
-    imgUrl:
-        'https://s4.bukalapak.com/img/9550866752/w-1000/Kaca_spion_Scoopy.jpg',
+    imgAsset: 'assets/spionscoopy.jpg',
   ),
 ];

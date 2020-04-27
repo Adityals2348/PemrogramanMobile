@@ -79,8 +79,8 @@ class Sport extends StatelessWidget {
                               children: <Widget>[
                                 Container(
                                   width: 150.0,
-                                  child: Image.network(
-                                    topListBarang.imgUrl,
+                                  child: Image.asset(
+                                    topListBarang.imgAsset,
                                     fit: BoxFit.cover,
                                     height: 170.0,
                                   ),
@@ -123,34 +123,30 @@ class Sport extends StatelessWidget {
 
 class TopListBarang {
   String namaBarang;
-  String imgUrl;
+  String imgAsset;
 
-  TopListBarang({this.namaBarang, this.imgUrl});
+  TopListBarang({this.namaBarang, this.imgAsset});
 }
 
 List<TopListBarang> topListBarangs = [
   TopListBarang(
     namaBarang: "Caliper Brembo",
-    imgUrl:
-        'https://www.z1motorsports.com/includes/modules/kiss_image_thumbnailer/thumbs/1204x903_brembo-n-caliper-6-piston-2-piece-350-380mm-slotted-type-3-red-hi-res_original.jpg',
+    imgAsset: 'assets/caliper.jpg',
   ),
   TopListBarang(
     namaBarang: "Shockbreaker Ohlins",
-    imgUrl: 'https://cf.shopee.co.id/file/71dc6c6b53e31792ce66b2da99b56ceb',
+    imgAsset: 'assets/shock.jpg',
   ),
   TopListBarang(
     namaBarang: "Steering Damper Ohlins",
-    imgUrl:
-        'https://s1.bukalapak.com/img/6005473693/w-1000/Steering_Damper_Ohlins_Kawasaki_Ninja_250_2018.jpg',
+    imgAsset: 'assets/steering.jpg',
   ),
   TopListBarang(
     namaBarang: "Spion Rizoma",
-    imgUrl:
-        'https://s4.bukalapak.com/img/9212961828/w-1000/Spion_Rizoma_Original.jpg',
+    imgAsset: 'assets/spionrizoma.jpg',
   ),
   TopListBarang(
     namaBarang: "Selang Rem Hell",
-    imgUrl:
-        'https://ecs7.tokopedia.net/img/cache/700/product-1/2016/9/23/5615851/5615851_93fefe24-b868-4e19-a6bc-6a0a88ac7935.jpg',
+    imgAsset: 'assets/selanghell.jpg',
   ),
 ];
