@@ -42,6 +42,9 @@ flutter:
   assets:
     - assets/Logo.png
     - assets/pp.jpg
+    - assets/metik.png
+    - assets/bebek.png
+    - assets/sport.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
